@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>IME-USP</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+
+
+    <!-- Google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anybody&family=Inter&family=Mulish&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script>
+
+        function relogio() {
+            var data = new Date();
+            var hor = data.getHours();
+            var min = data.getMinutes();
+            var seg = data.getSeconds();
+
+            if (hor < 10) {
+                hor = "0" + hor;
+            }
+            if (min < 10) {
+                min = "0" + min;
+            }
+            if (seg < 10) {
+                seg = "0" + seg;
+            }
+
+            var horas = hor + ":" + min + ":" + seg;
+
+            document.getElementById("clock").innerHTML = horas;
+
+        }
+
+        var timer = setInterval(relogio, 1000);
+
+
+
+
+        function pisca() {
+            window.location.reload(true);
+        }
+
+        var timer2 = setInterval(pisca, 160000);
+
+
+    </script>
+
+
+
+</head>
+
+<body id="page-top">
+
+
+    <div class="container-fluid" id="page">
+
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+
+                <div class="carousel-item active" data-bs-interval="10000">
+
+                    <div class="row">
+                        <div class="col-3 lateral">
+                            <p class="lateral-titulo">DEFESA DE MESTRADO</p>
+
+                            <p class="lateral-data">17/05/2022</p>
+                            <p class="lateral-hora">14:00</p>
+
+                            <p class="lateral-local-titulo">Online</p>
+                            <p class="lateral-local-info">meet.google.com/xsv-blah-jxb</p>
+                        </div>
+
+
+
+                        <div class="col-9 corpo">
+                            <p class="corpo-autor">Maria Fonseca de Jesus Soares</p>
+
+                            <p class="corpo-titulo">"Avaliação da influência genética no microbioma intestinal de
+                                crianças através da análise de dados de sequências de rRNA 24S"</p>
+
+
+                            <p class="corpo-orientador"> Prof. Dr. José Soares Machado
+                                <br><span class="corpo-orientacao">(orientação)</span>
+                            </p>
+
+
+                            <p class="corpo-programa">Programa Interunidades de Pós-Graduação em Bioinformática</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item" data-bs-interval="6000">
+
+                    <div class="row">
+                        
+                        <img src="img/mascara.png" style="max-height: 100%;">
+                      
+                    </div>
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="10000">
+
+                    <div class="row">
+                        <div class="col-3 lateral">
+                            <p class="lateral-titulo">DEFESA DE MESTRADO</p>
+
+                            <p class="lateral-data">09/03/2022</p>
+                            <p class="lateral-hora">15:00</p>
+
+                            <p class="lateral-local-titulo">Sala</p>
+                            <p class="lateral-local-info">B-144</p>
+                        </div>
+
+
+
+                        <div class="col-9 corpo">
+                            <p class="corpo-autor">Joana Amaral Trindade</p>
+
+                            <p class="corpo-titulo">"Modelos de crescimento com catástrofes uniformes sob uma ótica renovada"</p>
+
+
+                            <p class="corpo-orientador"> Prof. Dr. Fabiano Pereira Miranda
+                                <br><span class="corpo-orientacao">(orientação)</span>
+                            </p>
+
+
+                            <p class="corpo-programa">Programa de Pós-Graduação em Estatística</p>
+
+                        </div>
+                    </div>
+                </div>
+
+              
+
+                <div class="carousel-item" data-bs-interval="6000">
+
+                    <div class="row">
+                        
+                        <img src="img/wallpaperbetter.jpg" style="max-height: 100%;">
+                      
+                    </div>
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="10000">
+
+                    <div class="row">
+                        <div class="col-3 lateral">
+                            <p class="lateral-titulo">DEFESA DE MESTRADO</p>
+
+                            <p class="lateral-data">13/12/2021</p>
+                            <p class="lateral-hora">13:00</p>
+
+                            <p class="lateral-local-titulo">Auditório</p>
+                            <p class="lateral-local-info">Antonio Gilioli</p>
+                        </div>
+
+
+
+                        <div class="col-9 corpo">
+                            <p class="corpo-autor">Zuleika Alberto Barbosa</p>
+
+                            <p class="corpo-titulo">"Uma visão conjuntista de alguns resultados em estruturas alfa numéricas"</p>
+
+
+                            <p class="corpo-orientador"> Profa. Dra. Helena Luizz Marinho
+                                <br><span class="corpo-orientacao">(orientação)</span>
+                            </p>
+
+
+                            <p class="corpo-programa">Programa de Pós-Graduação em Matemática</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="6000">
+
+                    <div class="row">
+                        
+                        <img src="img/webmaster1.png" style="max-height: 100%;">
+                      
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item" data-bs-interval="10000">
+
+                    <div class="row">
+                        <div class="col-3 lateral">
+                            <p class="lateral-titulo">DEFESA DE MESTRADO</p>
+
+                            <p class="lateral-data">13/08/2021</p>
+                            <p class="lateral-hora">14:00</p>
+
+                            <p class="lateral-local-titulo">Auditório</p>
+                            <p class="lateral-local-info">Jacy Monteiro</p>
+                        </div>
+
+
+
+                        <div class="col-9 corpo">
+                            <p class="corpo-autor">Vitoria Bragança Soares</p>
+
+                            <p class="corpo-titulo">"Compacidade do operador de Gauss associado ao número e"</p>
+
+
+                            <p class="corpo-orientador"> Prof. Dr. Paul Dantas Cirella
+                                <br><span class="corpo-orientacao">(orientação)</span>
+                            </p>
+
+
+                            <p class="corpo-programa">Programa de Pós-Graduação em Matemática Aplicada</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item" data-bs-interval="6000">
+
+                    <div class="row">
+                        
+                        <img src="img/cartazes.png" style="max-height: 100%;">
+                      
+                    </div>
+                </div>
+
+
+
+              
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+    
+
+
+    <div id="footer">
+        <div id="assinatura"><img src="img/assinatura.png"></div>
+        <div id='clock'></div>
+
+    </div>
+
+</div>
+</body>
+
+</html>
