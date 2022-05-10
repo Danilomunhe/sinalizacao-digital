@@ -10,7 +10,7 @@ body {
   background-color: #142C68; 
   color: #fff;
   padding: 3%;
-  height: 100vh;
+  height: 100%;
   
 }
 
@@ -129,4 +129,13 @@ body {
   }
 
 
+
+
+  @media only screen and (max-width: 960px) {
+    body {
+      zoom: 0.5;
+      -moz-transform: scale(0.5);
+    }
+
+  }
 
