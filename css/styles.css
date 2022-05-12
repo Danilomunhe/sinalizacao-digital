@@ -24,7 +24,7 @@ body {
 .lateral-data {
   font-size: 60px;
   font-weight: 400;
-  margin-top: 130px;
+  margin-top: 60px;
 }
 
 .lateral-hora {
@@ -35,7 +35,7 @@ body {
 .lateral-local-titulo {
   font-size: 40px;
   font-weight: 400;
-  margin-top: 130px;
+  margin-top: 60px;
  }
 
 .lateral-local-info {
@@ -43,7 +43,19 @@ body {
   font-weight: 400;
  }
 
+ .lateral-url {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -15px;
+ }
 
+ .lateral-qrcode {
+   width: 150px;
+   margin: auto;
+   display: block;
+   margin-top: 40px;
+ }
 
 
 .corpo {
@@ -51,29 +63,37 @@ body {
 }
 
 
-.corpo-autor {
+.txt-nome-autor {
   text-align: center;
   font-size: 60px;
   font-weight: 400;
   margin-top: 70px;
+  text-transform: uppercase;
 }
 
-.corpo-titulo {
+.titulo-trabalho {
   text-align: center;
   font-size: 45px;
   font-weight: 400;
-  margin-top: 80px;
+  margin-top: 20px;
   padding: 5%;
 }
 
 
-.corpo-orientador {
-  text-align: center;
-  font-size: 35px;
+.txt-banca {
+  text-align: left;
+  font-size: 27px;
   font-weight: 400;
-  margin-top: 50px;
+  margin-left: 10%;
 
 }
+
+.txt-banca-titulo {
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 10%;
+}
+
 
 .corpo-orientacao{
   text-align: center;
@@ -83,12 +103,12 @@ body {
   font-style: oblique;
 }
 
-.corpo-programa{
+.txt-programa-titulo {
   text-align: center;
-
   font-size: 40px;
   font-weight: 400;
-  margin-top: 100px;
+  margin-top: 70px;
+  text-transform: uppercase;
 }
 
 
