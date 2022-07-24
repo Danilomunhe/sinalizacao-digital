@@ -10,7 +10,7 @@ body {
   background-color: #142C68; 
   color: #fff;
   padding: 3%;
-  height: 100%;
+  /*min-height: 600px;*/
   
 }
 
@@ -24,7 +24,7 @@ body {
 .lateral-data {
   font-size: 60px;
   font-weight: 400;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .lateral-hora {
@@ -35,7 +35,7 @@ body {
 .lateral-local-titulo {
   font-size: 40px;
   font-weight: 400;
-  margin-top: 60px;
+  margin-top: 50px;
  }
 
 .lateral-local-info {
@@ -47,7 +47,6 @@ body {
   font-size: 15px;
   font-weight: 400;
   text-align: center;
-  margin-top: -15px;
  }
 
  .lateral-qrcode {
@@ -85,14 +84,21 @@ body {
   font-size: 27px;
   font-weight: 400;
   margin-left: 10%;
+}
 
+.txt-banca-suplente {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 10%;
 }
 
 .txt-banca-titulo {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   margin-left: 10%;
 }
+
 
 
 .corpo-orientacao{
@@ -137,8 +143,8 @@ body {
   
   #clock {
     font-family: 'Roboto Mono', monospace !important;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 400;
     color: #142C68;
     text-align: right;
     display: inline;

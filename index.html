@@ -31,47 +31,8 @@
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
 
-
-
-
-    <script>
-
-        function relogio() {
-            var data = new Date();
-            var hor = data.getHours();
-            var min = data.getMinutes();
-            var seg = data.getSeconds();
-
-            if (hor < 10) {
-                hor = "0" + hor;
-            }
-            if (min < 10) {
-                min = "0" + min;
-            }
-            if (seg < 10) {
-                seg = "0" + seg;
-            }
-
-            var horas = hor + ":" + min + ":" + seg;
-
-            document.getElementById("clock").innerHTML = horas;
-
-        }
-
-        var timer = setInterval(relogio, 1000);
-
-
-
-
-        function pisca() {
-            window.location.reload(true);
-        }
-                                        
-        var timer2 = setInterval(pisca, 120000);
-
-
-    </script>
-
+    <!-- scripts -->
+    <script src="js/scripts.js"></script>
 
 
 </head>
@@ -79,7 +40,7 @@
 <body id="page-top">
 
 
-    <div class="container-fluid" id="page">
+    <div class="container-fluid p-0" id="page">
 
 
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -87,99 +48,101 @@
 
 
 
-               
-                
 
-
-                <div class="carousel-item" data-bs-interval="15000">
+                <div class="carousel-item" data-bs-interval="30000">
 
                     <div class="row">
                         <div class="col-3 lateral">
                             <p class="lateral-titulo">DEFESA DE DOUTORADO</p>
 
-                            <p class="lateral-data">27/06/2022</p>
+                            <p class="lateral-data">11/08/2022</p>
+                            <p class="lateral-hora">14:00</p>
+
+                            <p class="lateral-local-titulo">A-249</p>
+                            <p class="lateral-local-info">Transmissão online: meet.google.com/pte-eyhm-zom</p>
+
+
+
+
+                            <img src="img/qrcode_defesa_francisco_queiroz.png" class="lateral-qrcode" />
+                            <p class="lateral-url">www.ime.usp.br/defesas</p>
+
+                        </div>
+
+
+
+                        <div class="col-9 corpo">
+                            <p class="txt-nome-autor">Francisco Felipe de Queiroz</p>
+
+                            <p class="titulo-trabalho">"Análise de dados com suporte limitado: modelos power logit e
+                                contribuições à inferência robusta"</p>
+
+
+                            <p class="txt-banca-titulo">Comissão julgadora</p>
+
+                            <p class="txt-banca"> Profa. Dra. Silvia Lopes de Paula Ferrari, IME-USP </p>
+                            <p class="txt-banca"> Prof. Dr. Artur José Lemonte, UFRN </p>
+                            <p class="txt-banca"> Prof. Dr. Francisco Cribari Neto, UFPE </p>
+                            <p class="txt-banca"> Prof. Dr. Gilberto Alvarenga Paula, IME-USP </p>
+                            <p class="txt-banca"> Prof. Dr. Mário de Castro Andrade Filho, UFSCar </p>
+
+
+                            <p class="txt-programa-titulo">Programa de Pós-Graduação em Estatística</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item" data-bs-interval="30000">
+
+                    <div class="row">
+
+                        <img src="img/mascara.png" style="max-height: 100%; width: 100%;">
+
+                    </div>
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="30000">
+
+                    <div class="row">
+                        <div class="col-3 lateral">
+                            <p class="lateral-titulo">DEFESA DE DOUTORADO</p>
+
+                            <p class="lateral-data">19/08/2022</p>
                             <p class="lateral-hora">14:00</p>
 
                             <p class="lateral-local-titulo">Online</p>
-                            <p class="lateral-local-info">meet.google.com/xsv-blah-jxb</p>
+                            <p class="lateral-local-info"> meet.google.com/xah-ybzm-usw</p>
 
 
-                            
-                            
-                            <img src="img/qrcode_defesas.png" class="lateral-qrcode" />
-                            <p class="lateral-url">www.ime.usp.br/defesas</p>
-
-                        </div>
-
-
-
-                        <div class="col-9 corpo">
-                            <p class="txt-nome-autor">Jonas Soares Sanches</p>
-
-                            <p class="titulo-trabalho">"Avaliação da influência genética no microbioma intestinal de
-                                crianças através da análise de dados de sequências de rRNA 24S"</p>
-
-
-                            <p class="txt-banca-titulo">Comissão julgadora</p>
-
-                            <p class="txt-banca"> Profa. Dra. Ariane Silva Maciel, IME-USP </p>
-                            <p class="txt-banca"> Prof. Dr. Milton Nunes Bragança Pereira Silva, ICMC-USP </p>
-                            <p class="txt-banca"> Profa. Dra. Maria Silva Caetano, UFF </p>
-
-                            <p class="txt-programa-titulo">Programa de Pós-Graduação em Ciência da Computação</p>
-
-                            
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="carousel-item active" data-bs-interval="6000">
-
-                    <div class="row">
-
-                        <img src="img/mascara.png" style="max-height: 100%;">
-
-                    </div>
-                </div>
-
-
-
-                <div class="carousel-item" data-bs-interval="15000">
-
-                    <div class="row">
-                        <div class="col-3 lateral">
-                            <p class="lateral-titulo">DEFESA DE DOUTORADO</p>
-
-                            <p class="lateral-data">23/06/2022</p>
-                            <p class="lateral-hora">09:00</p>
-
-                            <p class="lateral-local-titulo">Auditório</p>
-                            <p class="lateral-local-info">Gilioli</p>
-
-
-                            <img src="img/qrcode_defesas.png" class="lateral-qrcode" />
+                            <img src="img/qrcode_defesa_rodrigo_carvalho.png" class="lateral-qrcode" />
                             <p class="lateral-url">www.ime.usp.br/defesas</p>
                         </div>
 
 
 
                         <div class="col-9 corpo">
-                            <p class="txt-nome-autor">Valquíria Maria Costa</p>
+                            <p class="txt-nome-autor">Rodrigo Rey Carvalho</p>
 
-                            <p class="titulo-trabalho">"Avaliação da influência genética no microbioma intestinal de
-                                crianças através da análise de dados de sequências de rRNA 24S"</p>
+                            <p class="titulo-trabalho">"Propriedades de recobrimento, reflexões em submodelos
+                                elementares e partições em espaços topológicos"</p>
 
 
                             <p class="txt-banca-titulo">Comissão julgadora</p>
 
-                            <p class="txt-banca"> Profa. Dra. Ariane Silva Maciel, IME-USP</p>
-                            <p class="txt-banca"> Prof. Dr. Milton Nunes Bragança Pereira Silva, ICMC-USP</p>
-                            <p class="txt-banca"> Profa. Dra. Maria Silva Caetano, UFF</p>
+                            <p class="txt-banca"> Profa. Dra. Lúcia Renato Junqueira, IME-USP</p>
+                            <p class="txt-banca"> Prof. Dr. Gabriel Zanetti Nunes Fernandes, IME-USP</p>
+                            <p class="txt-banca"> Prof. Dr. Leandro Fiorini Aurichi, IME-USP</p>
+                            <p class="txt-banca"> Prof. Dr. Marcelo Dias Passos, UFBA</p>
+                            <p class="txt-banca"> Prof. Dr. Renan Maneli Mezabarba, ICMC-USP</p>
+                            <p class="txt-banca"> Prof. Dr. Rodrigo Roque Dias, UFABC</p>
 
-                            <p class="txt-programa-titulo">Programa de Pós-Graduação Interunidades em Bioinformática</p>
+                            <p class="txt-programa-titulo">Programa de Pós-Graduação em Matemática</p>
 
                         </div>
                     </div>
@@ -187,7 +150,7 @@
 
 
 
-                <div class="carousel-item" data-bs-interval="15000">
+                <div class="carousel-item" data-bs-interval="30000">
 
                     <div class="row">
 
@@ -197,76 +160,98 @@
                 </div>
 
 
-               
-                <div class="carousel-item" data-bs-interval="15000">
+
+
+
+                <div class="carousel-item" data-bs-interval="30000">
 
                     <div class="row">
-                        <div class="col-3 lateral">
-                            <p class="lateral-titulo">DEFESA DE MESTRADO</p>
+                        <div class="col-12 corpo">
+                            <h1 class="txt-nome-autor">CONCURSO PROFESSOR TITULAR</h1>
+                            <h2 class="text-center">EDITAL 021/2019 - DEPARTAMENTO DE MATEMÁTICA</h2>
 
-                            <p class="lateral-data">12/05/2022</p>
-                            <p class="lateral-hora">10:00</p>
+                            <h1 class="text-center">Candidatos: Pedro Antonio Salomão e Edson Vargas</h1>
 
-                            <p class="lateral-local-titulo">Sala</p>
-                            <p class="lateral-local-info">B-144</p>
+                        </div>
+                    </div>
 
+                    <div class="row" style="background-color: rgb(192, 190, 186);">
 
+                        <div class="col-5 p-5">
+                            <p class="txt-banca-titulo">Comissão (membros titulares)</p>
 
-                            <img src="img/qrcode_defesas.png" class="lateral-qrcode" />
-                            <p class="lateral-url">www.ime.usp.br/defesas</p>
+                            <p class="txt-banca"> Prof. Dr. Roberto Markarian Abrahamian<br> TITULAR –
+                                IMERL-Uruguai
+                            </p>
+                            <p class="txt-banca"> Prof. Dr. Ruy Exel Filho<br> TITULAR – Aposentado - UFSC</p>
+                            <p class="txt-banca"> Prof. Dr. Charles Philippe Louis Tresser<br> TITULAR – IMPA</p>
+                            <p class="txt-banca"> Prof. Dr. Daniel Smania Brandão<br> TITULAR – ICMC-USP</p>
+                            <p class="txt-banca"> Prof. Dr. Fábio Armando Tal (Presidente)<br> TITULAR – IME-USP
+                            </p>
+                        </div>
+                        <div class="col-5 p-5">
+                            <p class="txt-banca-titulo">Comissão (membros suplentes)</p>
 
-
+                            <p class="txt-banca">Prof. Dr. Mário Jorge Dias Carneiro<br> TITULAR – Emérito - UFMG
+                            </p>
+                            <p class="txt-banca">Prof. Dr. Artur Oscar Lopes<br> TITULAR – UFRJ </p>
+                            <p class="txt-banca">Prof. Dr. Carlos Gustavo Tamm de Araújo Moreira<br> TITULAR – IMPA
+                            </p>
+                            <p class="txt-banca">Profa. Dra. Maria José Pacífico<br> TITULAR – UFRJ </p>
+                            <p class="txt-banca">Prof. Dr. Paolo Piccione<br> TITULAR – IME-USP</p>
+                            <p class="txt-banca">Prof. Dr. Antonio Luiz Pereira<br> TITULAR – IME-USP</p>
                         </div>
 
 
+                        <div class="col-2" style="background-color: rgb(248, 184, 8);">
+                            <h1 style="margin-top: 100px;">05/08/2022</h1>
+                            <h1>08:00</h1>
 
-                        <div class="col-9 corpo">
-                            <p class="txt-nome-autor">Silvio Suleiman Guimarães</p>
-
-                            <p class="titulo-trabalho">"Avaliação da influência genética no microbioma intestinal de
-                                crianças através da análise de dados de sequências de rRNA 24S"</p>
+                            <h3 style="margin-top: 100px;">Sala da Congregação<br>Auditório Gilioli</h3>
 
 
-                            <p class="txt-banca-titulo">Comissão julgadora</p>
-
-                            <p class="txt-banca"> Profa. Dra. Ariane Silva Maciel, IME-USP</p>
-                            <p class="txt-banca"> Prof. Dr. Milton Nunes Bragança Pereira Silva, ICMC-USP</p>
-                            <p class="txt-banca"> Profa. Dra. Maria Silva Caetano, UFF </p>
-
-                            <p class="txt-programa-titulo">Programa de Pós-Graduação em Matemática Aplicada</p>
-
+                            <img src="img/qrcode_concursos.png" class="lateral-qrcode" style="margin-top: 100px;" />
+                            <p class="lateral-url">www.ime.usp.br/concursos</p>
                         </div>
+
+
                     </div>
                 </div>
 
 
-
-                <div class="carousel-item" data-bs-interval="15000">
-
+                <div class="carousel-item" data-bs-interval="30000">
                     <div class="row">
 
-                        <img src="img/mascara.png" style="max-height: 100%;">
+                        <img src="img/obras.png" style="max-height: 100%;">
 
                     </div>
                 </div>
 
 
+                <div class="carousel-item active" data-bs-interval="30000">
+                    <div class="row">
+
+                        <img src="img/posse-diretor.png" style="max-height: 100%;">
+
+                    </div>
+                </div>
 
 
+// segurança objetos 
 
-
-
-
-
-
-
+// cuidado com bicicletas
 
             </div>
 
 
 
 
+
+
+
         </div>
+    
+
 
 
 
