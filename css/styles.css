@@ -11,8 +11,7 @@ body {
   background-color: #142C68; 
   color: #fff;
   padding: 3%;
-  /*min-height: 600px;*/
-  height: 100vh;
+  height: 1100px;
 }
 
 .horizontal {
