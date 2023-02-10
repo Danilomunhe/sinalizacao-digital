@@ -8,7 +8,8 @@ const srcImage = [
     {id:5, url: 'http://natal.ime.usp.br/sinalizacao-digital/img/projetosMencaoHonrosa.gif'},
     {id:6, url: 'http://natal.ime.usp.br/sinalizacao-digital/img/coralUsp.gif'},
     {id:7, url: 'http://natal.ime.usp.br/sinalizacao-digital/img/ebtc.gif'},
-    {id:8, url: 'http://natal.ime.usp.br/sinalizacao-digital/img/random.gif'}
+    {id:8, url: 'http://natal.ime.usp.br/sinalizacao-digital/img/random.gif'},
+    {id:8, url: 'http://natal.ime.usp.br/sinalizacao-digital/img/calouro.gif'}
 ]
 
 // Função responsável por pegar os dados da api e devolver um array
